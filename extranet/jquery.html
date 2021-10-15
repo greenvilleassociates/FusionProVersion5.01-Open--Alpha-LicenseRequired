@@ -91,6 +91,8 @@ a:active {
 }
 
 .jsstyle3 {
+    vertical-align: center;
+    width: 91%;
     font-size: 4pt;
     color: blue;
     background-color: black;
@@ -100,7 +102,7 @@ a:active {
 .jsstyle4 {
     font-size: 4pt;
     color: white;
-    background-color: green;
+    background-color: red;
     margin-left: 1px;
     padding: 0px 0px;
     line-height:80%;
@@ -120,13 +122,17 @@ a:active {
    border-radius:2px;
    font-size:xx-small;
    width:980px;
-   height:52px;
+   height:32px;
    padding: 5px 5px;
-   margin-top:-12px;/*Adjust this value to position the icon*/
+   margin-top:-5px;/*Adjust this value to position the icon*/
    background: linear-gradient(to right, red , yellow); /* Standard syntax */
 }
-
-
+.custom-btn {
+    width: 75px !important;
+}
+.ui-listview>.ui-li-static {
+height: 40px;
+}
 	</style>
 </head>
 <body bgcolor="black" background-color: black>
@@ -135,14 +141,14 @@ a:active {
 <div data-role="page" id="pageone" background-color: black>
 <div bgcolor="black" data-role="Content"><!--pMy Content Frame/p--></div>
 
- <div class="jsstyle3" data-role="navbar" align=center>
+ <div class="jsstyle4" data-role="navbar" align=center>
    <div class="ui-content ui-icon-home jsstyle3 data-role="main" align=center>
 	<ul>
-	<li><a data-icon="plus" href="http://www.abcnews.com" target="body2" data-inline="true">ABC</a></li>
-	<li><a data-icon="cloud" href="https://www.foxnews.com" target="body2">FoxNews</a></li>
-	<li><a data-icon="back" href="https://www.reuters.com" target="body2">Reuters News</a></li>
-	<li><a a="" data-icon="navigation" href="https://www.disney.com" target="body2">Disney Home</a></li>
-	<li><a data-icon="gear" href="https://gaweb1.greenvilleassociates.com/h/index.php?option=com_users&view=login&Itemid=124&lang=en" target="body2">Login & Search</a></li>
+	<li><a data-icon="plus" href="hosting.html" target="body2" data-inline="true">HOSTING</a></li>
+	<li><a data-icon="cloud" href="hybrid.html" target="body2">HYBRID</a></li>
+	<li><a data-icon="bars" href="grid.html" target="body2">GRID</a></li>
+	<li><a data-icon="bullets" href="location.html" target="body2">LOCATION</a></li>
+	<li><a data-icon="user" href="./h/index.php" target="body2">GEM</a></li>
 	</ul>
    </div>
 </div>
